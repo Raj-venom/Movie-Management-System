@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Management</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Movie Management</h1>
+
+    <div class="container">
+        <p class="add-heading">Add Movie</p>
+      <div class="add">
+        <input type="text" id="title"    class="input" placeholder=" Title" />
+        <input type="text" id="director" class="input" placeholder=" Direcotr" />
+        <input type="number" id="rating" class="input" placeholder=" Rating" />
+        <button class="btn" onclick="addMovie()">Add Movie</button>
+      </div>
+
+      <div class="display">
+        <ul class="movieList">
+          <li>
+            <span>
+              Title: Movie name
+              <br />
+              Direcotr: raja babu
+              <br />
+              Rating: 299
+            </span>
+    <button class="btn" onclick="editMovie()">Edit</button>
+    <button class="btn" onclick="deleteMovie()">Delete</button>`;
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

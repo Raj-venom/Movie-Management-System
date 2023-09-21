@@ -1,0 +1,40 @@
+{
+  "movies": [
+    {
+      "title": "Iron Man",
+      "director": "tony dada",
+      "rating": 9,
+      "id": 1
+    },
+    {
+      "title": "Krish",
+      "director": "jadu",
+      "rating": 8,
+      "id": 2
+    },
+    {
+      "title": "Super Man ",
+      "director": "batman",
+      "rating": 7,
+      "id": 3
+    },
+    {
+      "title": "Spider Man",
+      "director": "peter Parker",
+      "rating": 9,
+      "id": 4
+    },
+    {
+      "title": "Saban ko Pani",
+      "director": "Badal barsiyo bijuli",
+      "rating": 999,
+      "id": 6
+    },
+    {
+      "title": "End Game",
+      "director": "Marvel",
+      "rating": 9,
+      "id": 7
+    }
+  ]
+}
